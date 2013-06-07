@@ -1,1 +1,50 @@
-gg
+In order to step into the world of Minecraft mods, there are a couple of steps we will need to get rolling.
+Make sure you have about an hour to download and install everything. 
+
+For these downloads, make sure you are downloading the builds that match your operating system. 
+If you have a 32-bit operating system, all your downloads should be 32-bit (x86), and the same 
+should be for 64-bit (x64). You can find this information about your computer by: 
+
+Click the Windows button on your bottom task bar or on your keyboard
+Right click on 'Computer' and select 'Properties'
+You will view information about the operating system in the window that opens up like the following
+
+<img src="http://www.coderdojoli.com/img/x641.bmp">
+
+Now to start downloading. 
+The things we are going to want to get going are:
+
+<a href='http://www.oracle.com/technetwork/java/javase/downloads/jre6downloads-1902815.html'>Java 
+Runtime Environment (JRE)</a> and 
+<a href='http://www.oracle.com/technetwork/java/javase/downloads/jdk6downloads-1902814.html'>Java 
+Development Kit (JDK)</a> which you can download from the provided links. They are for versions 
+6 as that is more popular allowing your mod to be run on different computers with this version
+
+You will also want an integrated development environment (IDE). This is where you will actually 
+be coding. For our examples and lessons, we are going to use 
+<a href='http://www.eclipse.org/downloads'>Eclipse</a>
+
+The last puzzle piece is <a href='http://adf.ly/673885/http://files.minecraftforge.net/minecraftforge/minecraftforge-src-recommended.zip'>Minecraft Forge</a>. 
+This is a package that allows you to rebuild any and 
+all parts of Minecraft to your liking. It contains the source files we will need to start working 
+with. Make sure you extract the files in this package to a location that you know you can access. 
+For me, I'm going to put it in "C:\dev\".
+
+Now that all of these are downloaded, we are going to want to install Forge. Open the folder 
+you have your files in and run the install script ("install.cmd" for Windows). It takes a little 
+bit to run but it allows all the files to access the right information about your Java environment
+that we installed on your computer. 
+
+Once this is done, we can start booting up Eclipse. This application does not need to be installed. 
+After you download it, you can just double-click the application file and Eclipse will run, so let's 
+go to where you installed it and double-click the "eclipse.exe" file
+
+You will be asked where you would like your workplace to be. Forge already has the project setup for 
+you, so we are going to want to direct it to where you installed Forge. For me, I put 
+"C:\dev\forge\mcp\eclipse", and click "OK". 
+
+At this point, your environment it ready to go. If you click the run button on the top toolbar 
+(it looks like a play button), the application will boot up and you will be able to play Minecraft.
+
+The follow up to this tutorial will provide boilerplate code, or code that you would use to start 
+generating a mod of your own. Hang tight coders!
